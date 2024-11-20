@@ -1,0 +1,18 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="64"
+    height="64"
+    fill="#fff"
+>
+    <!-- Paper Background -->
+    <rect x="10" y="5" width="40" height="54" rx="4" ry="4" fill="none" stroke="black" stroke-width="2"/>
+
+    <!-- Plus Icon -->
+    <line x1="30" y1="20" x2="30" y2="44" stroke="black" stroke-width="2"/>
+    <line x1="18" y1="32" x2="42" y2="32" stroke="black" stroke-width="2"/>
+
+    <!-- Paper Fold -->
+    <line x1="37" y1="5" x2="51" y2="19" stroke="black" stroke-width="2" />
+    <polyline points="51,19 37,19 37,5" fill="none" stroke="black" stroke-width="2"/>
+</svg>
