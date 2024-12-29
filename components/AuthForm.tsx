@@ -21,9 +21,9 @@ const AuthForm = ({ type }: AuthFormProps) => {
   const form = useForm<z.infer<typeof AuthFormValidation>>({
     resolver: zodResolver(AuthFormValidation),
     defaultValues: {
-      username: "",
-      email: "",
-      password: "",
+      username: "admin",
+      email: "admin@admin.com",
+      password: "admin",
     }
   })
 
